@@ -13,11 +13,13 @@
     "build:css": "node-sass --source-map ./.tmp/styles/styles.css.map src/styles/styles.scss -o ./.tmp/styles",
     "watch:css": "chokidar 'src/**/*.scss' -c 'npm run build:css'",
     "postinstall": "typings install",
-    "start": "npm install && npm run build:css && npm run serve"
+    "start": "npm install && npm run build:css && npm run serve",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@kadira/storybook": "^2.35.3",
     "browser-sync": "^2.18.8",
     "chai": "^3.5.0",
     "chokidar-cli": "^1.2.0",
@@ -33,6 +35,7 @@
     "rollup-plugin-typescript": "^0.8.1",
     "sinon": "^2.1.0",
     "sinon-chai": "^2.9.0",
+    "ts-loader": "^2.0.3",
     "ts-node": "^3.0.2",
     "typescript": "^2.2.2",
     "typings": "^2.1.1"

@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 
 const expect: Chai.ExpectStatic = chai.expect;
 
-const MOCK_ARTICLE: IArticle = {
+export const MOCK_ARTICLE: IArticle = {
     title: 'Article title',
     published_date: "2017-04-27 07:45:05",
     url: "http://www.bbc.co.uk/sport/football/39729853",
