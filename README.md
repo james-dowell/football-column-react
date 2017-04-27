@@ -1,6 +1,8 @@
-Clone the repo and run `npm start` to get started!
+The football column
+-----
 
-`npm run test` shoud get the test suite going (`npm install` will need to be run if `npm start` has not been run before the tests).
+`npm install` should install all the neccessary depenedencies for the project
 
-Known issues and improvements:
-- Seems to be a scrolling issue within ReactRouter which means you have to scroll up after selecting an articel
+ ## Tests
+
+ Run the unit tests with the `npm run test` task
